@@ -12,7 +12,7 @@ arguments
 end
 
 % Check that ddmmyyyy was provided in the appropriate format
-if numel(split(ddmmyyyy,"/")) ~= 3
+if numel(split(ddmmyyyy,"/")) ~= 3fgh
     error("dayofyear:InvalidDateFormat","Invalid date string. Expected date formatted as dd/mm/yyyy.")
 end
 
