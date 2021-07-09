@@ -13,7 +13,7 @@ end
 
 % Check that ddmmyyyy was provided in the appropriate format
 if numel(split(ddmmyyyy,"/")) ~= 3
-    error("dayofyear:InvalidDateFormat","Invalid date string. Expected date formatted as dd/mm/yyyy.")
+    error("dayofyear:InvalidDateFormat","Invalid date string. Expected date formatted as dd/mm/yyyy.") ;
 end
 
 % Create a datetime object depending on the dateFormat provided
